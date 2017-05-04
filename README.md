@@ -9,7 +9,7 @@ This calculator calculates the duration, which is the day count and the number o
 
 Fork and clone the repo. 
 ```shell
-$ https://github.com/RiahiKarim/ng4.git
+$ git clone https://github.com/RiahiKarim/ng4.git
 ```
 
 `cd` into it and install npm dependencies:
@@ -19,10 +19,6 @@ $ cd ng4
 $ npm install
 ```
 
-Install angular-cli:
-
-```shell
-$ npm install -g @angular/cli
 ```
 
 This next step will be the only one you will use from now-on:
