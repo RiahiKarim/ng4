@@ -1,5 +1,3 @@
-# ng4
-
 # ng4 -- Date Duration Calculator
 
 ### Calculate Duration Between Two Dates
