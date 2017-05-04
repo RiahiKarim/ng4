@@ -19,6 +19,10 @@ $ cd ng4
 $ npm install
 ```
 
+Install angular-cli:
+
+```shell
+$ npm install @angular/cli -g
 ```
 
 This next step will be the only one you will use from now-on:
@@ -27,4 +31,4 @@ This next step will be the only one you will use from now-on:
 $ ng serve
 ```
 
-This will rebuild the site in dev mode and start the application. You can access the application on `localhost:9000`.
+This will rebuild the site in dev mode and start the application. You can access the application on `localhost:4200`.
