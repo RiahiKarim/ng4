@@ -1,0 +1,29 @@
+form {
+    padding: 15px 15px 15px 30px;
+    background: #fcf7f7;
+    border-left: 3px solid #dec6c6;
+    margin: 15px 0;
+}
+
+.row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a:link, a:visited {
+    color: #176db3;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 0px;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+.result{
+    padding: 15px;
+    background: #f4fcf0;
+    border-left: 3px solid #ccdec4;
+    margin: 15px 0;
+}

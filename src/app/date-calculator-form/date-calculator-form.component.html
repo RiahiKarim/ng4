@@ -1,0 +1,32 @@
+<form #dateDurationCalculatorForm="ngForm" (ngSubmit)="onSubmit()">
+  <div class="row">
+    <div class="col-md-6">
+      <h2>Start Date</h2>
+      <my-date-picker name="startDate" [options]="myDatePickerOptions"
+                    [(ngModel)]="model.startDate" required></my-date-picker>
+    </div>
+    <div div class="col-md-6">
+      <h2>End Date</h2>
+      <my-date-picker name="endDate" [options]="myDatePickerOptions"
+                    [(ngModel)]="model.endDate" required></my-date-picker>
+    </div>
+  </div>
+  <div class="row">
+    <div div class="col-md-12">
+      <label>
+        <input type="checkbox" name="endDateIncluded" [(ngModel)]="endDateIncluded">
+        Include end date in calculation (1 day is added)
+      </label>
+    </div>
+  </div>
+  <div class="row">
+    <div div class="col-md-12">
+      <button type="submit" class="btn btn-success" [disabled]="!dateDurationCalculatorForm.form.valid" >Calculate Duration</button>
+    </div>
+  </div>
+</form>
+
+<div [hidden]="!displayResult" class="result row">
+  <h2>Result: {{duration}} days</h2>
+  <p>It is {{duration}} day(s) from the start date to the end date.</p>
+</div>

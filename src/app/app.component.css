@@ -1,0 +1,13 @@
+ h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 0 7px;
+}
+
+.container {
+    margin: 50px auto;
+}
