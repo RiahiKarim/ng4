@@ -1,9 +1,9 @@
-# ng4 -- Date Duration Calculator
+# Date Duration Calculator
 
 ### Calculate Duration Between Two Dates
 
 This calculator calculates the duration, which is the day count and the number of days, months and years between two dates. Among other things, it can be used to find how many days old you are  :)
-#### [Live Demo](https://riahikarim.github.io/ng4/dist/)
+#### [Live Demo](https://riahikarim.github.io/date-duration-calculator/dist/)
 ## Build & Development
 ### Setup
 
